@@ -1,0 +1,21 @@
+.dash-holder {
+    width: fit-content;
+    border-right: 1px solid rgba(100, 149, 237, 0.2);
+    height: 100%;
+}
+
+@media screen and (max-width: 1100px) {
+
+    .dash-holder {
+        width: fit-content;
+        border-right: 1px solid rgba(100, 149, 237, 0.2);
+        height: 100%;
+    }
+
+}
+
+@media screen and  (max-width: 568px) {
+    .dash-holder {
+        width: 100%;
+    }
+}

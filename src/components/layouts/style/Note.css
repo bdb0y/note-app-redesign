@@ -1,0 +1,16 @@
+.note-holder {
+    cursor: pointer;
+}
+
+.note-holder span {
+    display: block;
+    /*background-color: brown;*/
+    padding: .5rem 2rem;
+}
+
+hr {
+    margin: 0 0 0 2rem;
+    border-color: #6495ed;
+    border-color: rgba(100, 149, 237, 0.2);
+
+}

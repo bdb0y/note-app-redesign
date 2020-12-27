@@ -1,0 +1,57 @@
+.top-menu-holder {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0 1rem;
+    width: 100%;
+    border-bottom: 1px solid rgba(100, 149, 237, 0.2);
+    height: 6%;
+    background-color: white;
+}
+
+.top-menu-holder a {
+}
+
+.option {
+    margin-left: 1.5rem;
+    color: cornflowerblue;
+    font-size: 1.2rem;
+    cursor: pointer;
+    align-self: center;
+}
+
+.back {
+    display: none;
+    margin-left: 0;
+}
+
+.delete {
+    margin-left: auto;
+}
+
+@media screen and (max-width: 1100px) {
+    .top-menu-holder {
+        height: 6%;
+    }
+}
+
+@media screen and  (max-width: 568px) {
+    .top-menu-holder {
+        position: fixed;
+        top: 0;
+        z-index: 999;
+        height: 7%;
+        padding: 1rem 1rem;
+    }
+
+    .back {
+        display: block;
+    }
+
+    .option {
+        font-size: 1.3rem;
+    }
+}
+
+
